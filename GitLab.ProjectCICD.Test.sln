@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitLab.ProjectCICD.Test", "GitLab.ProjectCICD.Test\GitLab.ProjectCICD.Test.csproj", "{D0DF3F5F-A2FE-4FCD-A01E-896981DC9AF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitLab.ProjectCICD.Test.XUnit", "GitLab.ProjectCICD.Test.XUnit\GitLab.ProjectCICD.Test.XUnit.csproj", "{091F4428-C049-4B2F-8A8B-F721E9DF7E1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0AAC281C-FE8C-4B1C-8013-088E769ED846}"
+	ProjectSection(SolutionItems) = preProject
+		.gitlab-ci.yml = .gitlab-ci.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{D0DF3F5F-A2FE-4FCD-A01E-896981DC9AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0DF3F5F-A2FE-4FCD-A01E-896981DC9AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0DF3F5F-A2FE-4FCD-A01E-896981DC9AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091F4428-C049-4B2F-8A8B-F721E9DF7E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091F4428-C049-4B2F-8A8B-F721E9DF7E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091F4428-C049-4B2F-8A8B-F721E9DF7E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091F4428-C049-4B2F-8A8B-F721E9DF7E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
